@@ -1,0 +1,75 @@
+This file contains multiple data for the alpha version.
+
+=== FITTED PARAMETERS ===
+
+* Top
+Notes : I only succeeded in fitting these parameters for z > 1.3 angstroms, which could
+        match the radius of the W atom
+** D = 4.843306
+** alpha = 1.991931
+** req = 1.736781
+
+* Bridge
+** D = 5.603632
+** alpha = 0.950659
+** req=0.785308
+
+* Hollow
+** D = 7.613337
+** alpha = 1.252572
+** req = 0.565774
+
+=== FOURIER COEFFICIENTS ===
+
+* D
+** D0 = 5.915976762771606
+** D1 = -0.69250774383544922
+** D2 = 0.15617239475250244
+
+* ALPHA
+** ALPHA0 = 1.2864552140235901
+** ALPHA1 = 0.18483975529670715
+** ALPHA2 = 0.16789811849594116
+
+* REQ
+** REQ0 = 0.96829275786876678
+** REQ1 = 0.29275174438953400
+** REQ2 = 9.1492377221584320E-002
+
+
+=== MINIMUM ===
+
+I did found the global minimum at,
+ X =   0.50000000745058060      (units of delta)
+ Y =   0.50000000745058060      (units of delta)
+ Z =   0.56999998725950718      (angstrom)
+ Vmin =   -7.6131250823998018      (eV)
+
+Which corresponds to the hollow site.
+
+
+=== ERRORS ===
+
+* Top
+** Mean error (LEPS - CRP): 12.191628 eV
+** Mean absolute deviation : 32.685975 eV
+
+* Bridge
+** Mean error (LEPS - CRP): -0.161605 eV
+** Mean absolute deviation : 0.591843 eV
+
+* Hollow
+** Mean error (LEPS - CRP): -0.076030 eV
+** Mean absolute deviation : 0.210820 eV
+
+* Topbridge
+** Mean error (LEPS - CRP): -5.517968 eV
+** Mean absolute deviation : 5.943840 eV
+
+* Tophollow
+** Mean error (LEPS - CRP): -1.416283 eV
+** Mean absolute deviation : 1.655649 eV
+
+* Bridgehollow
+** Mean error (LEPS - CRP): 0.028051 eV
+** Mean absolute deviation : 0.406784 eV
